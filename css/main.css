@@ -3,6 +3,10 @@
     color: #e1e8ec;
     height: 100vh;
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .site-header-content {
@@ -13,6 +17,7 @@
     border-radius: 50%;
     max-height: 200px;
     max-width: 200px;
+    box-shadow: #0c0919 2px 5px 5px;
 }
 
 body {
